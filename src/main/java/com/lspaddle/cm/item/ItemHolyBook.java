@@ -6,5 +6,6 @@ public class ItemHolyBook extends ItemCM
     {
         super();
         this.setUnlocalizedName("HolyBook");
+        this.maxStackSize = 1;
     }
 }

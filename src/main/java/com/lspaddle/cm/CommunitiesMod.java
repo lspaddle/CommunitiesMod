@@ -1,6 +1,7 @@
 package com.lspaddle.cm;
 
 import com.lspaddle.cm.handler.ConfigurationHandler;
+import com.lspaddle.cm.init.ModBlocks;
 import com.lspaddle.cm.init.ModItems;
 import com.lspaddle.cm.proxy.IProxy;
 import com.lspaddle.cm.reference.Reference;
@@ -30,6 +31,9 @@ public class CommunitiesMod
 
         //inits all the items
         ModItems.init();
+
+        //inits all the blocks
+        ModBlocks.init();
 
         LogHelper.info("Pre Initialization Complete!");
     }
